@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D874D2B520629B75008C7F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2B420629B75008C7F4D /* AppDelegate.swift */; };
+		D874D2B720629B75008C7F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2B620629B75008C7F4D /* ViewController.swift */; };
+		D874D2BA20629B75008C7F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D874D2B820629B75008C7F4D /* Main.storyboard */; };
+		D874D2BC20629B75008C7F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D874D2BB20629B75008C7F4D /* Assets.xcassets */; };
+		D874D2BF20629B75008C7F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D874D2BD20629B75008C7F4D /* LaunchScreen.storyboard */; };
+		D874D2CA20629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2C920629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.swift */; };
+		D874D2D520629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2D420629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.swift */; };
+		D874D2E520629BBB008C7F4D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2E420629BBB008C7F4D /* BaseViewController.swift */; };
+		D874D2EB20629C2A008C7F4D /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2EA20629C2A008C7F4D /* BaseModel.swift */; };
+		D874D2ED20629C35008C7F4D /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2EC20629C35008C7F4D /* BaseView.swift */; };
+		D874D2EF20629C7B008C7F4D /* ZZJGetImageColorToolMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2EE20629C7B008C7F4D /* ZZJGetImageColorToolMainViewController.swift */; };
+		D874D2F120629CF8008C7F4D /* ZZJGetImageMainColorTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2F020629CF8008C7F4D /* ZZJGetImageMainColorTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D874D2C620629B76008C7F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D874D2A920629B75008C7F4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D874D2B020629B75008C7F4D;
+			remoteInfo = ZZJGetImageMainColorFramework;
+		};
+		D874D2D120629B76008C7F4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D874D2A920629B75008C7F4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D874D2B020629B75008C7F4D;
+			remoteInfo = ZZJGetImageMainColorFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D874D2B120629B75008C7F4D /* ZZJGetImageMainColorFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZJGetImageMainColorFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D874D2B420629B75008C7F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D874D2B620629B75008C7F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D874D2B920629B75008C7F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D874D2BB20629B75008C7F4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D874D2BE20629B75008C7F4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D874D2C020629B76008C7F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D874D2C520629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZJGetImageMainColorFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D874D2C920629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJGetImageMainColorFrameworkTests.swift; sourceTree = "<group>"; };
+		D874D2CB20629B76008C7F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D874D2D020629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZJGetImageMainColorFrameworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D874D2D420629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJGetImageMainColorFrameworkUITests.swift; sourceTree = "<group>"; };
+		D874D2D620629B76008C7F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D874D2E420629BBB008C7F4D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D874D2EA20629C2A008C7F4D /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		D874D2EC20629C35008C7F4D /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		D874D2EE20629C7B008C7F4D /* ZZJGetImageColorToolMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJGetImageColorToolMainViewController.swift; sourceTree = "<group>"; };
+		D874D2F020629CF8008C7F4D /* ZZJGetImageMainColorTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJGetImageMainColorTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D874D2AE20629B75008C7F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874D2C220629B76008C7F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874D2CD20629B76008C7F4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D874D2A820629B75008C7F4D = {
+			isa = PBXGroup;
+			children = (
+				D874D2B320629B75008C7F4D /* ZZJGetImageMainColorFramework */,
+				D874D2C820629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests */,
+				D874D2D320629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests */,
+				D874D2B220629B75008C7F4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D874D2B220629B75008C7F4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2B120629B75008C7F4D /* ZZJGetImageMainColorFramework.app */,
+				D874D2C520629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.xctest */,
+				D874D2D020629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D874D2B320629B75008C7F4D /* ZZJGetImageMainColorFramework */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2E620629BF8008C7F4D /* Classes */,
+				D874D2E220629BAC008C7F4D /* Public */,
+				D874D2E320629BAC008C7F4D /* ZZJGetImageMainColorTool */,
+				D874D2B420629B75008C7F4D /* AppDelegate.swift */,
+				D874D2B620629B75008C7F4D /* ViewController.swift */,
+				D874D2B820629B75008C7F4D /* Main.storyboard */,
+				D874D2BB20629B75008C7F4D /* Assets.xcassets */,
+				D874D2BD20629B75008C7F4D /* LaunchScreen.storyboard */,
+				D874D2C020629B76008C7F4D /* Info.plist */,
+			);
+			path = ZZJGetImageMainColorFramework;
+			sourceTree = "<group>";
+		};
+		D874D2C820629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2C920629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.swift */,
+				D874D2CB20629B76008C7F4D /* Info.plist */,
+			);
+			path = ZZJGetImageMainColorFrameworkTests;
+			sourceTree = "<group>";
+		};
+		D874D2D320629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2D420629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.swift */,
+				D874D2D620629B76008C7F4D /* Info.plist */,
+			);
+			path = ZZJGetImageMainColorFrameworkUITests;
+			sourceTree = "<group>";
+		};
+		D874D2E220629BAC008C7F4D /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2E420629BBB008C7F4D /* BaseViewController.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		D874D2E320629BAC008C7F4D /* ZZJGetImageMainColorTool */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2F020629CF8008C7F4D /* ZZJGetImageMainColorTool.swift */,
+			);
+			path = ZZJGetImageMainColorTool;
+			sourceTree = "<group>";
+		};
+		D874D2E620629BF8008C7F4D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2E720629C18008C7F4D /* Controller */,
+				D874D2E820629C18008C7F4D /* Model */,
+				D874D2E920629C18008C7F4D /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D874D2E720629C18008C7F4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2EE20629C7B008C7F4D /* ZZJGetImageColorToolMainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D874D2E820629C18008C7F4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2EA20629C2A008C7F4D /* BaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D874D2E920629C18008C7F4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D874D2EC20629C35008C7F4D /* BaseView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D874D2B020629B75008C7F4D /* ZZJGetImageMainColorFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D874D2D920629B76008C7F4D /* Build configuration list for PBXNativeTarget "ZZJGetImageMainColorFramework" */;
+			buildPhases = (
+				D874D2AD20629B75008C7F4D /* Sources */,
+				D874D2AE20629B75008C7F4D /* Frameworks */,
+				D874D2AF20629B75008C7F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZJGetImageMainColorFramework;
+			productName = ZZJGetImageMainColorFramework;
+			productReference = D874D2B120629B75008C7F4D /* ZZJGetImageMainColorFramework.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D874D2C420629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D874D2DC20629B76008C7F4D /* Build configuration list for PBXNativeTarget "ZZJGetImageMainColorFrameworkTests" */;
+			buildPhases = (
+				D874D2C120629B76008C7F4D /* Sources */,
+				D874D2C220629B76008C7F4D /* Frameworks */,
+				D874D2C320629B76008C7F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D874D2C720629B76008C7F4D /* PBXTargetDependency */,
+			);
+			name = ZZJGetImageMainColorFrameworkTests;
+			productName = ZZJGetImageMainColorFrameworkTests;
+			productReference = D874D2C520629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D874D2CF20629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D874D2DF20629B76008C7F4D /* Build configuration list for PBXNativeTarget "ZZJGetImageMainColorFrameworkUITests" */;
+			buildPhases = (
+				D874D2CC20629B76008C7F4D /* Sources */,
+				D874D2CD20629B76008C7F4D /* Frameworks */,
+				D874D2CE20629B76008C7F4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D874D2D220629B76008C7F4D /* PBXTargetDependency */,
+			);
+			name = ZZJGetImageMainColorFrameworkUITests;
+			productName = ZZJGetImageMainColorFrameworkUITests;
+			productReference = D874D2D020629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D874D2A920629B75008C7F4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ZHONG ZHAOJUN";
+				TargetAttributes = {
+					D874D2B020629B75008C7F4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					D874D2C420629B76008C7F4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D874D2B020629B75008C7F4D;
+					};
+					D874D2CF20629B76008C7F4D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D874D2B020629B75008C7F4D;
+					};
+				};
+			};
+			buildConfigurationList = D874D2AC20629B75008C7F4D /* Build configuration list for PBXProject "ZZJGetImageMainColorFramework" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D874D2A820629B75008C7F4D;
+			productRefGroup = D874D2B220629B75008C7F4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D874D2B020629B75008C7F4D /* ZZJGetImageMainColorFramework */,
+				D874D2C420629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests */,
+				D874D2CF20629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D874D2AF20629B75008C7F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874D2BF20629B75008C7F4D /* LaunchScreen.storyboard in Resources */,
+				D874D2BC20629B75008C7F4D /* Assets.xcassets in Resources */,
+				D874D2BA20629B75008C7F4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874D2C320629B76008C7F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874D2CE20629B76008C7F4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D874D2AD20629B75008C7F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874D2F120629CF8008C7F4D /* ZZJGetImageMainColorTool.swift in Sources */,
+				D874D2B720629B75008C7F4D /* ViewController.swift in Sources */,
+				D874D2EF20629C7B008C7F4D /* ZZJGetImageColorToolMainViewController.swift in Sources */,
+				D874D2B520629B75008C7F4D /* AppDelegate.swift in Sources */,
+				D874D2ED20629C35008C7F4D /* BaseView.swift in Sources */,
+				D874D2EB20629C2A008C7F4D /* BaseModel.swift in Sources */,
+				D874D2E520629BBB008C7F4D /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874D2C120629B76008C7F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874D2CA20629B76008C7F4D /* ZZJGetImageMainColorFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D874D2CC20629B76008C7F4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D874D2D520629B76008C7F4D /* ZZJGetImageMainColorFrameworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D874D2C720629B76008C7F4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D874D2B020629B75008C7F4D /* ZZJGetImageMainColorFramework */;
+			targetProxy = D874D2C620629B76008C7F4D /* PBXContainerItemProxy */;
+		};
+		D874D2D220629B76008C7F4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D874D2B020629B75008C7F4D /* ZZJGetImageMainColorFramework */;
+			targetProxy = D874D2D120629B76008C7F4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D874D2B820629B75008C7F4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D874D2B920629B75008C7F4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D874D2BD20629B75008C7F4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D874D2BE20629B75008C7F4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D874D2D720629B76008C7F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D874D2D820629B76008C7F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D874D2DA20629B76008C7F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZJGetImageMainColorFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D874D2DB20629B76008C7F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZJGetImageMainColorFramework/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D874D2DD20629B76008C7F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZJGetImageMainColorFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZJGetImageMainColorFramework.app/ZZJGetImageMainColorFramework";
+			};
+			name = Debug;
+		};
+		D874D2DE20629B76008C7F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZJGetImageMainColorFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZJGetImageMainColorFramework.app/ZZJGetImageMainColorFramework";
+			};
+			name = Release;
+		};
+		D874D2E020629B76008C7F4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZJGetImageMainColorFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZJGetImageMainColorFramework;
+			};
+			name = Debug;
+		};
+		D874D2E120629B76008C7F4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZJGetImageMainColorFrameworkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFrameworkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZJGetImageMainColorFramework;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D874D2AC20629B75008C7F4D /* Build configuration list for PBXProject "ZZJGetImageMainColorFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874D2D720629B76008C7F4D /* Debug */,
+				D874D2D820629B76008C7F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D874D2D920629B76008C7F4D /* Build configuration list for PBXNativeTarget "ZZJGetImageMainColorFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874D2DA20629B76008C7F4D /* Debug */,
+				D874D2DB20629B76008C7F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D874D2DC20629B76008C7F4D /* Build configuration list for PBXNativeTarget "ZZJGetImageMainColorFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874D2DD20629B76008C7F4D /* Debug */,
+				D874D2DE20629B76008C7F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D874D2DF20629B76008C7F4D /* Build configuration list for PBXNativeTarget "ZZJGetImageMainColorFrameworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D874D2E020629B76008C7F4D /* Debug */,
+				D874D2E120629B76008C7F4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D874D2A920629B75008C7F4D /* Project object */;
+}
