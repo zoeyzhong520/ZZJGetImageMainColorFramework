@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81CEEED2063428300F1D04E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81CEEE72063428300F1D04E /* 1.jpg */; };
+		D81CEEEE2063428300F1D04E /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81CEEE82063428300F1D04E /* 2.jpg */; };
+		D81CEEEF2063428300F1D04E /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81CEEE92063428300F1D04E /* 3.jpg */; };
+		D81CEEF02063428300F1D04E /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81CEEEA2063428300F1D04E /* 4.jpg */; };
+		D81CEEF12063428300F1D04E /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81CEEEB2063428300F1D04E /* 5.jpg */; };
+		D81CEEF22063428300F1D04E /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D81CEEEC2063428300F1D04E /* 6.jpg */; };
+		D81CEEF420635D1600F1D04E /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81CEEF320635D1600F1D04E /* common.swift */; };
 		D874D2B520629B75008C7F4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2B420629B75008C7F4D /* AppDelegate.swift */; };
 		D874D2B720629B75008C7F4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D874D2B620629B75008C7F4D /* ViewController.swift */; };
 		D874D2BA20629B75008C7F4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D874D2B820629B75008C7F4D /* Main.storyboard */; };
@@ -39,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D81CEEE72063428300F1D04E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D81CEEE82063428300F1D04E /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D81CEEE92063428300F1D04E /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		D81CEEEA2063428300F1D04E /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D81CEEEB2063428300F1D04E /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		D81CEEEC2063428300F1D04E /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		D81CEEF320635D1600F1D04E /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		D874D2B120629B75008C7F4D /* ZZJGetImageMainColorFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZJGetImageMainColorFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D874D2B420629B75008C7F4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D874D2B620629B75008C7F4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +98,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D81CEEE52063428300F1D04E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D81CEEE62063428300F1D04E /* 海贼王 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D81CEEE62063428300F1D04E /* 海贼王 */ = {
+			isa = PBXGroup;
+			children = (
+				D81CEEE72063428300F1D04E /* 1.jpg */,
+				D81CEEE82063428300F1D04E /* 2.jpg */,
+				D81CEEE92063428300F1D04E /* 3.jpg */,
+				D81CEEEA2063428300F1D04E /* 4.jpg */,
+				D81CEEEB2063428300F1D04E /* 5.jpg */,
+				D81CEEEC2063428300F1D04E /* 6.jpg */,
+			);
+			path = "海贼王";
+			sourceTree = "<group>";
+		};
 		D874D2A820629B75008C7F4D = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +142,7 @@
 		D874D2B320629B75008C7F4D /* ZZJGetImageMainColorFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D81CEEE52063428300F1D04E /* Resources */,
 				D874D2E620629BF8008C7F4D /* Classes */,
 				D874D2E220629BAC008C7F4D /* Public */,
 				D874D2E320629BAC008C7F4D /* ZZJGetImageMainColorTool */,
@@ -142,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				D874D2E420629BBB008C7F4D /* BaseViewController.swift */,
+				D81CEEF320635D1600F1D04E /* common.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -295,7 +332,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81CEEF22063428300F1D04E /* 6.jpg in Resources */,
 				D874D2BF20629B75008C7F4D /* LaunchScreen.storyboard in Resources */,
+				D81CEEF12063428300F1D04E /* 5.jpg in Resources */,
+				D81CEEF02063428300F1D04E /* 4.jpg in Resources */,
+				D81CEEED2063428300F1D04E /* 1.jpg in Resources */,
+				D81CEEEE2063428300F1D04E /* 2.jpg in Resources */,
+				D81CEEEF2063428300F1D04E /* 3.jpg in Resources */,
 				D874D2BC20629B75008C7F4D /* Assets.xcassets in Resources */,
 				D874D2BA20629B75008C7F4D /* Main.storyboard in Resources */,
 			);
@@ -322,6 +365,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D81CEEF420635D1600F1D04E /* common.swift in Sources */,
 				D874D2F120629CF8008C7F4D /* ZZJGetImageMainColorTool.swift in Sources */,
 				D874D2B720629B75008C7F4D /* ViewController.swift in Sources */,
 				D874D2EF20629C7B008C7F4D /* ZZJGetImageColorToolMainViewController.swift in Sources */,
@@ -495,7 +539,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
 				INFOPLIST_FILE = ZZJGetImageMainColorFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -509,7 +555,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HHBWV8ZU9T;
 				INFOPLIST_FILE = ZZJGetImageMainColorFramework/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zzj.ZZJGetImageMainColorFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
