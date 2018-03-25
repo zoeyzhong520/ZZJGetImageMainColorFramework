@@ -14,6 +14,7 @@ class ZZJGetImageMainColorTool: NSObject {
     ///根据图片获取 UIImage 的主色调
     /// - Parameters:
     ///   - image: 图片
+    ///   - size: 图片尺寸
     class fileprivate func getImageMainColor(withImage image: UIImage, withSize size: CGSize) -> [String:CGFloat]? {
         
         let bitmapInfo = CGBitmapInfo.init(rawValue: CGImageAlphaInfo.premultipliedLast.rawValue)
@@ -97,7 +98,7 @@ class ZZJGetImageMainColorTool: NSObject {
             print("获取图片主色调缓存失败！") //获取失败
             return nil
         }
-        
+//        print("r: \(r) g: \(g) b: \(b) a: \(a)")
         return UIColor(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: a) //获取成功
     }
     
